@@ -1,0 +1,6 @@
+package add_significance_stars
+version 1.0
+author Leo Liu
+description Adds significance stars to p-values in Stata
+install add_significance_stars.ado
+install add_significance_stars.sthlp
