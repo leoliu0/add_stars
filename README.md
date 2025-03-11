@@ -6,6 +6,6 @@ net install add_stars, from("https://raw.githubusercontent.com/leoliu0/add_stars
 
 # Usage
 ```
-add_star `r(p)'
+add_stars `r(p)'
 ```
 This will generate a global variable $stars for further usage.
