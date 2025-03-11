@@ -1,0 +1,2 @@
+d add_stars add_stars.ado
+h add_stars add_stars.sthlp

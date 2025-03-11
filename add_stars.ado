@@ -1,4 +1,4 @@
-program define add_significance_stars
+program define add_stars
     args pvalue  // Accept a local variable as input
 
     // Assign stars based on p-value
