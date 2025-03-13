@@ -1,5 +1,5 @@
 d package add_stars
-d version 1.0
+d version 1.1
 d author Leo Liu
 d description Adds significance stars to p-values in Stata
 f add_stars.ado
