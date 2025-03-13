@@ -14,5 +14,5 @@ program define add_stars
     else {
         local stars ""
     }
-    global stats=string(round(`stats', 0.01)) + `stars'
+    global stats = string(round(`stats', 0.01)) + "`stars'"
 end
