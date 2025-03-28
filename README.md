@@ -8,4 +8,4 @@ net install add_stars, from("https://raw.githubusercontent.com/leoliu0/add_stars
 ```
 add_stars `r(p)'
 ```
-This will generate a global variable $stars for further usage.
+This will generate a global variable $stats for further usage.
