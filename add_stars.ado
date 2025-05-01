@@ -3,16 +3,16 @@ program define add_stars
 
     // Assign stars based on p-value
     if `pvalue' < 0.01 {
-        local stars "***"
+        global stars "***"
     }
     else if `pvalue' < 0.05 {
-        local stars "**"
+        global stars "**"
     }
     else if `pvalue' < 0.10 {
-        local stars "*"
+        global stars "*"
     }
     else {
-        local stars ""
+        global stars ""
     }
-    global stats = string(round(`stats', 0.01)) + "`stars'"
+    global stats = string(round(`stats', 0.01))
 end
